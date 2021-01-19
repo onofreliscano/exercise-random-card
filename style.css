@@ -1,0 +1,38 @@
+body {
+    background-image: url("table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    display: inline-block;
+    background-color: white;
+    margin:auto;
+    height: 500px;
+    width: 350px;
+    border-radius: 15px;
+    padding: 30px;
+    border: 1px solid;
+    position: relative;
+    text-align: center;
+}
+
+.top-suit {
+    position:absolute;
+    top:0;
+    left:20px;
+    font-size: 120px;
+}
+
+.bottom-suit {
+    position:absolute;
+    bottom:0;
+    right: 20px;
+    font-size: 120px;
+}
+
+.number {
+    display: inline-block;
+    margin-top:50%;
+    font-size: 150px;
+}
